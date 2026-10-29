@@ -1,0 +1,47 @@
+{
+  "name": "opencode-scheduled-checks",
+  "version": "0.1.0",
+  "description": "Schedule follow-up checks that run later inside the same OpenCode session",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "scheduler",
+    "scheduled",
+    "cron",
+    "reminder",
+    "checks",
+    "agent"
+  ],
+  "license": "MIT",
+  "author": "Frank",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomoto8999/opencode-scheduled-checks.git"
+  },
+  "homepage": "https://github.com/hellomoto8999/opencode-scheduled-checks#readme",
+  "bugs": {
+    "url": "https://github.com/hellomoto8999/opencode-scheduled-checks/issues"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
